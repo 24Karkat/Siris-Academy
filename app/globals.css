@@ -295,6 +295,7 @@ section.block { padding: 88px 0; border-bottom: 1px solid var(--line); position:
 /* ===== CTA BANNER ===== */
 .cta-banner { border: 1px solid var(--line); background: linear-gradient(135deg, var(--surface) 0%, var(--ink) 100%); padding: 64px 48px; text-align: center; position: relative; overflow: hidden; }
 .cta-banner .seal-bg { position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%); width: 360px; color: rgba(255,255,255,0.2); }
+.cta-banner .seal-bg .seal { color: inherit; }
 
 /* ===== FOOTER ===== */
 footer { padding: 64px 0 40px; }
